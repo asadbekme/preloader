@@ -14,15 +14,18 @@ body {
 .preloader {    
     display: grid;
     place-items:  center;
-    color: red;
-    font-weight: 600;
-    font-size: 25px;
     width: 160px;
     height: 160px;
     border-radius: 50%;
     border: 14px solid black;
     border-top-color: yellow;
     animation: progress 2s linear infinite;
+}
+
+.preloader p {
+    color: red;
+    font-weight: 600;
+    font-size: 25px;
 }
 
 @keyframes progress {
